@@ -4,17 +4,45 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Host Reference</title>
+    <title>Yummy Trucks Host Page</title>
+    <link rel="icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQR1-30kWnnwMOWJViaKdexPhLuTfofvmRvXA&usqp=CAU/favicon.ico" type="image/x-icon">
+    <style> 
+        body {
+            
+            background-color: #cccccc; 
+            background-image: url('https://images.pexels.com/photos/5779658/pexels-photo-5779658.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');
+        }
+        </style>
 </head>
 <body>
-
+  
+    <link rel="stylesheet" href="/signupForm.css">
+    <div class="inner">
+        <h3 class="masthead-brand">Yummy Trucks</h3>
+        <nav class="nav nav-masthead justify-content-center">
+          <a class="nav-link active" href="/index.html">Home</a>
+          <a class="nav-link" href="/vendor.html">Vendors</a>
+          <a class="nav-link" href="/host.html">Hosts</a>
+          <a class="nav-link" href="#">Contact Us</a>
+        </nav>
+      </div>
     <h1>Schedule your next event with Yummy Trucks!!</h1>
-        <strong>Where would you like to host your event?</strong> <br>
+        <strong>Please enter your conact information?</strong> <br>
         <form action="/action_page.php" method="get" target="_blank">
             <label for="fname">First name:</label>
             <input type="text" id="fname" name="fname"><br><br>
             <label for="lname">Last name:</label>
             <input type="text" id="lname" name="lname"><br><br>
+            
+          
+          <strong>Please enter the location of your next event?</strong> <br>
+        
+            <label for="address">Address:</label>
+            <input type="text" id="address" name="address"><br><br>
+            <label for="city">City:</label>
+            <input type="text" id="city" name="city"><br><br>
+            <label for="zipCode">Zip Code:</label>
+            <input type="text" id="zipCode" name="zip Code"><br><br>
             <input type="submit" value="Submit">
           </form>
         
